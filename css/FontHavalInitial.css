@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Haval Light';
+    src: url('../fonts/Haval-Light.eot');
+    src: url('../fonts/Haval-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Haval-Light.woff2') format('woff2'),
+        url('../fonts/Haval-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Haval';
+    src: url('../fonts/Haval.eot');
+    src: url('../fonts/Haval.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Haval.woff2') format('woff2'),
+        url('../fonts/Haval.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Haval Medium';
+    src: url('../fonts/Haval-Medium.eot');
+    src: url('../fonts/Haval-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Haval-Medium.woff2') format('woff2'),
+        url('../fonts/Haval-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Haval MediumSlanted';
+    src: url('../fonts/Haval-MediumSlanted.eot');
+    src: url('../fonts/Haval-MediumSlanted.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Haval-MediumSlanted.woff2') format('woff2'),
+        url('../fonts/Haval-MediumSlanted.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
