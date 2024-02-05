@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Haval Light';
+    src: url('/../../../data/views/models/jolion/fonts/Haval-Light.eot');
+    src: url('/../../../data/views/models/jolion/fonts/Haval-Light.eot?#iefix') format('embedded-opentype'),
+        url('/../../../data/views/models/jolion/fonts/Haval-Light.woff2') format('woff2'),
+        url('/../../../data/views/models/jolion/fonts/Haval-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Haval';
+    src: url('/../../../data/views/models/jolion/fonts/Haval.eot');
+    src: url('/../../../data/views/models/jolion/fonts/Haval.eot?#iefix') format('embedded-opentype'),
+        url('/../../../data/views/models/jolion/fonts/Haval.woff2') format('woff2'),
+        url('/../../../data/views/models/jolion/fonts/Haval.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Haval Medium';
+    src: url('/../../../data/views/models/jolion/fonts/Haval-Medium.eot');
+    src: url('/../../../data/views/models/jolion/fonts/Haval-Medium.eot?#iefix') format('embedded-opentype'),
+        url('/../../../data/views/models/jolion/fonts/Haval-Medium.woff2') format('woff2'),
+        url('/../../../data/views/models/jolion/fonts/Haval-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Haval MediumSlanted';
+    src: url('/../../../data/views/models/jolion/fonts/Haval-MediumSlanted.eot');
+    src: url('/../../../data/views/models/jolion/fonts/Haval-MediumSlanted.eot?#iefix') format('embedded-opentype'),
+        url('/../../../data/views/models/jolion/fonts/Haval-MediumSlanted.woff2') format('woff2'),
+        url('/../../../data/views/models/jolion/fonts/Haval-MediumSlanted.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
