@@ -625,7 +625,11 @@ input[type="radio"][name="colorInput"] {
   .quiz-active {
     display: block;
   }
-  
+
+  #final-text-info #final-input {
+    flex-direction: column;
+  }
+
 }
 
 @media (max-width: 767.98px) {
