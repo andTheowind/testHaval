@@ -630,8 +630,8 @@ input[type="radio"][name="colorInput"] {
     flex-direction: column;
   }
   
-  #final-text-info .final-input:first-child {
-    margin-bottom: 10px;
+  #final-text-info .final-input div:first-child {
+    margin-bottom: 14px;
   }
 
 }
