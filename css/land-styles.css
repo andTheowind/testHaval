@@ -626,8 +626,12 @@ input[type="radio"][name="colorInput"] {
     display: block;
   }
 
-  #final-text-info #final-input {
+  #final-text-info .final-input {
     flex-direction: column;
+  }
+  
+  #final-text-info .final-input:first-child {
+    margin-bottom: 10px;
   }
 
 }
