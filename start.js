@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const quizWrap = document.querySelector('.quiz-wrap');
 
     startBtn.addEventListener('click', function () {
-      wrapper.style.backgroundImage = 'url("/img/quiz-bg.jpg")'; 
+      wrapper.style.backgroundImage = 'url("./img/quiz-bg.jpg")'; 
       firstBanner.style.display = 'none';
       quizWrap.style.display = 'block';
     });
