@@ -1,0 +1,60 @@
+body {
+    background: #333;
+}
+.car::before {
+    padding: 5px;
+    margin: 5px;
+    content: attr(data-name);
+    cursor: pointer;
+}
+
+.car.selected {
+    border: 1px solid black;
+}
+
+.car-color::before {
+    padding: 5px;
+    margin: 5px;
+    content: attr(data-name);
+    cursor: pointer;
+}
+
+.car-color.selected {
+    border: 1px solid red;
+}
+
+#final-container {
+    display: none;
+}
+
+#final-container.show {
+    display: block;
+}
+
+input[type="radio"] {
+    display: grid;
+    place-content: center;
+    appearance: none;
+    background-color: #fff;
+    margin: 0;
+    font: inherit;
+    color: #fff;
+    width: 1.15em;
+    height: 1.15em;
+    border: 0.15em solid #fff;
+    border-radius: 0;
+    cursor: pointer;
+}
+input[type="radio"]::before {
+    content: "";
+    width: 0.85em;
+    height: 0.85em;
+    border-radius: 0;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em #000;
+}
+
+input[type="radio"]:checked::before {
+    transform: scale(1);
+}
